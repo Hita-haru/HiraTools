@@ -27,6 +27,9 @@ HiraToolsは、Minecraftに無線でレッドストーン信号を送受信す�
 - **リンク:** 送信機または受信機を右クリックしてリンクします。
 - **状態確認:** リンクされたブロックがONになるとランプが点灯し、OFFになると消灯します。
 
+### 注意
+- ポータブル無線送信機は空を向いた状態（ブロックからフォーカスを外した状態）にして使用してください。
+
 ## クラフトレシピ
 
 ### 無線レッドストーン送信機
@@ -90,6 +93,9 @@ A handheld wireless transmitter.
 An item to remotely check the status of a Wireless Redstone Transmitter or Receiver.
 - **Link:** Right-click on a transmitter or receiver to link it.
 - **Status Check:** The lamp turns on when the linked block is ON and turns off when it is OFF.
+
+### Caution
+- Use the portable wireless transmitter while pointing it toward the sky (with the focus removed from the block).
 
 ## Crafting Recipes
 
