@@ -1,6 +1,5 @@
 # HiraTools
 
-※The English version is at the end of the file.  
 HiraToolsは、Minecraftに無線でレッドストーン信号を送受信する機能を追加するModです。
 
 ## 追加されるブロックとアイテム
@@ -29,11 +28,37 @@ HiraToolsは、Minecraftに無線でレッドストーン信号を送受信す�
 
 ## クラフトレシピ
 
-### パイロットランプ
-石切台でレッドストーンランプを加工するとクラフトできます。
+### 無線レッドストーン送信機
+- **石切台:**
+  - レッドストーンブロック x1 -> 無線レッドストーン送信機 x1
+- **かまど:**
+  - 無線レッドストーン受信機 -> 無線レッドストーン送信機
+- **たき火:**
+  - 無線レッドストーン受信機 -> 無線レッドストーン送信機
 
-- **材料:** レッドストーンランプ x1
-- **結果:** パイロットランプ (オフ) x1
+### 無線レッドストーン受信機
+- **石切台:**
+  - レッドストーンブロック x1 -> 無線レッドストーン受信機 x1
+- **かまど:**
+  - 無線レッドストーン送信機 -> 無線レッドストーン受信機
+- **たき火:**
+  - 無線レッドストーン送信機 -> 無線レッドストーン受信機
+
+### リンカー
+- **かまど:**
+  - コンパレーター -> リンカー
+- **たき火:**
+  - コンパレーター -> リンカー
+
+### ポータブル無線送信機
+- **かまど:**
+  - リンカー -> ポータブル無線送信機
+- **たき火:**
+  - リンカー -> ポータブル無線送信機
+
+### パイロットランプ
+- **石切台:**
+  - レッドストーンランプ x1 -> パイロットランプ (オフ) x1
 
 ---
 
@@ -67,8 +92,34 @@ An item to remotely check the status of a Wireless Redstone Transmitter or Recei
 
 ## Crafting Recipes
 
-### Pilot Lamp
-Can be crafted by processing a Redstone Lamp in a Stonecutter.
+### Wireless Redstone Transmitter
+- **Stonecutter:**
+  - Redstone Block x1 -> Wireless Redstone Transmitter x1
+- **Furnace:**
+  - Wireless Redstone Receiver -> Wireless Redstone Transmitter
+- **Campfire:**
+  - Wireless Redstone Receiver -> Wireless Redstone Transmitter
 
-- **Ingredient:** Redstone Lamp x1
-- **Result:** Pilot Lamp (Off) x1
+### Wireless Redstone Receiver
+- **Stonecutter:**
+  - Redstone Block x1 -> Wireless Redstone Receiver x1
+- **Furnace:**
+  - Wireless Redstone Transmitter -> Wireless Redstone Receiver
+- **Campfire:**
+  - Wireless Redstone Transmitter -> Wireless Redstone Receiver
+
+### Linker
+- **Furnace:**
+  - Comparator -> Linker
+- **Campfire:**
+  - Comparator -> Linker
+
+### Portable Wireless Transmitter
+- **Furnace:**
+  - Linker -> Portable Wireless Transmitter
+- **Campfire:**
+  - Linker -> Portable Wireless Transmitter
+
+### Pilot Lamp
+- **Stonecutter:**
+  - Redstone Lamp x1 -> Pilot Lamp (Off) x1
