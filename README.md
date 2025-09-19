@@ -1,5 +1,6 @@
 # HiraTools
 
+- The English explanation is provided later.
 HiraToolsは、Minecraftに無線でレッドストーン信号を送受信する機能を追加するModです。
 
 ## 追加されるブロックとアイテム
