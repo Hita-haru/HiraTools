@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hiratools",
+  "version": "${version}",
+  "name": "HiraTools",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hiratools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.modtest.hiratools.client.HiratoolsClient"
+    ],
+    "main": [
+      "org.modtest.hiratools.Hiratools"
+    ]
+  },
+  "mixins": [
+    "hiratools.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

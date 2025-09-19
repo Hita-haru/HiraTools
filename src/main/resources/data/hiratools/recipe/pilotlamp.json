@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:redstone_lamp"
+  },
+  "result": {
+    "id": "hiratools:pilot_lamp_off",
+    "count": 1
+  },
+  "group": "REDSTONE"
+}

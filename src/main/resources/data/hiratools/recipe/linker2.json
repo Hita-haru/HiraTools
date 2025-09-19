@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:comparator",
+    "minecraft:stick"
+  ],
+  "result": {
+    "item": "hiratools:linker"
+  },
+  "group": "REDSTONE"
+}

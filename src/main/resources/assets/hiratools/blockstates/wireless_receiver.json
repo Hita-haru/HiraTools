@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "hiratools:block/wireless_receiver" }
+  }
+}

@@ -1,0 +1,50 @@
+/tick freeze
+/tick unfreeze
+/give @s minecraft:stone
+/give @s minecraft:stick
+/give @s minecraft:clock
+/tick freeze
+/tick step
+/tick unfreeze
+/gie
+/give @s minecraft:stick
+/give @s minecraft:feather
+/give @s minecraft:command_block
+/give @s minecraft:debug_stick
+/give @s minecraft:danger_pottery_sherd
+/give @s minecraft:structure_block
+/difficulty peaceful
+/item replace entity @s armor.head with harutools:testitem
+/give @s hiratools:wireless_transmitter
+/give @s hiratools:wireless_receiver
+/gamemode s
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creatice
+/gamemode creative
+/give @s
+/give @s hiratools:wireless_receiver
+/time set 0
+/give @s hiratools:wireless_transmitter
+/give @s
+/give @s hiratools:linker
+/time set day
+/gamerule doDaylightCycle false
+/recipe give @s *
+/gamemode survival
+/gamemode creative
+/recipe give @s *
+/gamemode survival
+/recipe give @s *
+/gamemode creative
+/weather clear
+/gamerule doWeatherCycle false
+/recipe give @s *
+/recipe give @s
+/recipe give @s *
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @s hiratools:portable_wireless_transmitter
+/gamemode creative

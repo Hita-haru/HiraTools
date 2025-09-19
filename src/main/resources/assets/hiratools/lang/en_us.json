@@ -1,0 +1,8 @@
+{
+  "block.hiratools.wireless_transmitter" : "Wireless Redstone Transmitter",
+  "block.hiratools.wireless_receiver" : "Wireless Redstone Receiver",
+  "item.hiratools.linker" : "Linker",
+  "item.hiratools.portable_wireless_transmitter": "Portable Wireless Transmitter",
+  "item.hiratools.pilot_lamp_off": "Pilot Lamp (Off)",
+  "item.hiratools.pilot_lamp_on": "Pilot Lamp (On)"
+}

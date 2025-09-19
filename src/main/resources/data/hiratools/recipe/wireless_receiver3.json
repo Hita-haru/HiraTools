@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "hiratools:wireless_receiver",
+    "count": 1
+  },
+  "group": "REDSTONE"
+}

@@ -1,0 +1,8 @@
+{
+  "block.hiratools.wireless_transmitter" : "無線レッドストーン送信機",
+  "block.hiratools.wireless_receiver" : "無線レッドストーン受信機",
+  "item.hiratools.linker" : "リンカー",
+  "item.hiratools.portable_wireless_transmitter": "ポータブル無線送信機",
+  "item.hiratools.pilot_lamp_off": "パイロットランプ (オフ)",
+  "item.hiratools.pilot_lamp_on": "パイロットランプ (オン)"
+}
